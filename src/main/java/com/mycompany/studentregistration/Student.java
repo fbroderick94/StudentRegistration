@@ -85,7 +85,7 @@ public class Student {
     
     @Override
     public String toString(){
-        return "Name: " + "Age: " + this.Age + this.Name + "ID: " + this.ID + "Username: " + this.getUsername();
+        return "Name: " + this.Name + " Age: " + this.Age  + " ID: " + this.ID + " Username: " + this.getUsername();
     }
     
     

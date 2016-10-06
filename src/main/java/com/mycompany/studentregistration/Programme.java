@@ -73,4 +73,9 @@ public class Programme {
     public void deleteModule(Module mod){
         Modules.remove(mod);
     }
+    
+    public String toString(){
+        return "Course: " + Name;
+                
+    }
 }
