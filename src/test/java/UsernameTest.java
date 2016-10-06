@@ -18,11 +18,7 @@ import static org.junit.Assert.*;
  */
 public class UsernameTest {
     
-    
-
-    // TODO add test methods here.
-    // The methods must be annotated with annotation @Test. For example:
-    //
+   
     @Test
     public void getUsernameTest() {
         Student Mike = new Student("Michael Healy", "22/06/1985", 31);
