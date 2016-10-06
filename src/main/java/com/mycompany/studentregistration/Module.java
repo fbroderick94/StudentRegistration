@@ -20,6 +20,7 @@ public class Module {
     }
     
     
+    //getters and setters
    public void setName(String name){
        Name = name;
    }
