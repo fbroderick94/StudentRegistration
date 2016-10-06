@@ -55,7 +55,7 @@ public class Programme {
         return End;
     }
     
-    public ArrayList getModules(){
+    public ArrayList<Module> getModules(){
         return Modules;
     }
 
@@ -75,7 +75,7 @@ public class Programme {
     }
     
     public String toString(){
-        return "Course: " + Name;
+        return "Course: " + this.Name;
                 
     }
 }
